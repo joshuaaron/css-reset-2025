@@ -26,6 +26,7 @@
 
         /* Font synthesis is largely undesirable, disable it to make it more obvious when font styles are missing. */
         font-synthesis: none;
+        -webkit-font-smoothing: antialiased;
     }
 
     h1,
@@ -33,6 +34,10 @@
     h3,
     h4 {
         text-wrap: balance;
+    }
+
+    p {
+        text-wrap: pretty;
     }
 
     /* Remove list styles on ul */
